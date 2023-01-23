@@ -34,7 +34,6 @@ jobs:
           SOURCE: "./"
           REMOTE_HOST: ${{secrets.EC2_HOST}}
           REMOTE_USER: ${{secrets.EC2_USER}}
-          TARGET: "/root
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
